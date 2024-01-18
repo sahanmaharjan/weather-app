@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dialog.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Purchase | IMS</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>less Quantity</header>
+
+ <form action="sales.php" method="post">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Bill Details</span>
+
+                    <div class="fields">
+                    
+                          <div class="input-field">
+                            <label>billno</label>
+                            <input type="number" name="billno" placeholder="* required" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>date</label>
+                            <input type="date" name="date" placeholder="* required" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Item_id</label>
+                            <input type="number" name="item_id" placeholder="* required" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Name</label>
+                            <input type="text" name="name" placeholder="* required" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Quantity</label>
+                            <input type="number" name="quantity" placeholder="* required" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Rate</label>
+                            <input type="number" name="rate" placeholder="* required" required>
+                        </div>
+
+                         <div class="input-field">
+                            <label>Amount</label>
+                            <input type="number" name="amount" placeholder="* required" required>
+                        </div>
+
+                    </div>
+                </div>
+     
+<div class="form-group">
+<button type="submit" class="btn btn-primary" name="save">save</button>
+</div>   
+                </div>
+            </div>
+                    </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="dialog_script.js"></script>
+</body>
+</html>
