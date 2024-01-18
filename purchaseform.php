@@ -24,6 +24,7 @@
     <script src="jquery-3.6.0.min.js"></script>
 
     <title>Purchase | IMS</title>
+    <title>Purchase form</title>
 </head>
 
 <body>
